@@ -38,7 +38,7 @@ Van zodra je echter beslist om zelf een of meerdere constructors te schrijven za
 
 De default constructor is een constructor die geen extra parameters aanvaardt. Een constructor bestaat ALTIJD uit volgende vorm:
 
-* Dit semester is iedere constructor altijd ``public`` ([meer info](https://stackoverflow.com/questions/30995942/do-constructors-always-have-to-be-public))
+* Dit semester is iedere constructor altijd ``public``. ([meer info](https://stackoverflow.com/questions/30995942/do-constructors-always-have-to-be-public))
 * Heeft geen returntype, ook niet ``void``.
 * Heeft als naam de naam van de klasse zelf.
 
@@ -52,7 +52,7 @@ class Student
 
 ```
 
-We willen telkens een Student-object wordt aangemaakt dat deze een random leeftijd heeft. Via de default constructor kunnen we dat oplossen (je kan namelijk niet schrijven ``private int age = random.Next(10,20)`` )
+We willen telkens wanneer er een Student-object wordt aangemaakt dat deze een random leeftijd heeft. Via de default constructor kunnen we dat oplossen (je kan namelijk niet schrijven ``private int age = random.Next(10,20)`` )
 
 Eerst schrijven de default constructor, deze ziet er als volgt uit:
 
@@ -117,7 +117,7 @@ Met andere woorden, stel dat we dit willen schrijven:
 Student jos= new Student(19);
 ```
 
-Als we dit met voorgaande klasse , die enkel een default constructor heeft, uitvoeren zal de code een fout geven. C# vindt geen constructor die een int als parameter aanvaardt.
+Als we dit met voorgaande klasse, die enkel een default constructor heeft, uitvoeren zal de code een fout geven. C# vindt geen constructor die een int als parameter aanvaardt.
 
 [Net zoals bij overloading van methoden](../6_methoden/3_advancedmethod.md) kunnen we ook constructors overloaden. De code is verrassen gelijkaardig als bij method overloading:
 
@@ -159,7 +159,7 @@ class Student
 ```
 
 ### Meerdere overloaded constructor
-Wil je meerdere overloaded constructors dan mag dat ook. Je wilt misschien een constructor die de leeftijd vraag alsook een bool om mee te geven of het om een werkstudent gaat:
+Wil je meerdere overloaded constructors dan mag dat ook. Je wilt misschien een constructor die de leeftijd vraag alsook een ``bool`` om mee te geven of het om een werkstudent gaat:
 
 ```csharp
 class Student
