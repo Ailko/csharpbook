@@ -44,11 +44,11 @@ Dit semester kiezen we steeds als Project Type  **Console App (.NET Core)**. Kie
 
  Op het volgende scherm kan je een naam geven voor je project alsook de locatie op de harde schijf waar het project dient opgeslagen te worden. **Onthoudt waar je je project aanmaakt zodat je dit later terugvindt**.
 
-**De solution name blijf je af (deze moet momenteel dezelfde naam zijn als je project)**
+**De solution name blijf je af (deze moet momenteel dezelfde naam zijn als je project).**
 
  > Geef je projectnamen ogenblikkelijk duidelijke namen zodat je niet opgezadeld geraakt met projecten zoals Project201.
 
-Geef je project de naam "MyFirstProject" en kies een goede locatie (ik raad je aan dit steeds in Dropbox of Onedrive te doen)
+Geef je project de naam "MyFirstProject" en kies een goede locatie (ik raad je aan dit steeds in Dropbox of Onedrive te doen).
 
 ![VS Project maken](../assets/0_intro/vsprojectname.PNG)
 
@@ -61,7 +61,7 @@ Een console applicatie is een programma dat alle uitvoer naar een zogenaamde ‘
 
 Wanneer je VS opstart zal je mogelijk overweldigd worden door de hoeveelheid menu's, knopjes, schermen, etc. Dit is normaal voor een IDE: deze wil zoveel mogelijk mogelijkheden aanbieden aan de gebruiker. Vergelijk dit met Word: afhankelijk van wat je gaat doen gebruikt iedere gebruiker andere zaken van Word. De makers van Word kunnen dus niet bepaalde zaken weglaten, ze moeten net zoveel mogelijk aanbieden.
 
-Laat je niet afschrikken door VS. Het is een imponerend programma, maar je zal er sneller dan je verwacht, je weg in terugvinden!
+Laat je niet afschrikken door VS. Het is een imponerend programma, maar je zal er sneller dan je verwacht je weg in terugvinden!
 
 We zullen nu eerst eens bekijken wat we allemaal zien in VS na het aanmaken van een nieuw programma.
 
