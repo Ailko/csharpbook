@@ -52,12 +52,12 @@ Net zoals in de wiskunde kan je in C# met behulp van de haakjes verplichten het 
 
 Je kan nu complexe berekeningen doen door literals, operators en variabelen samen te voegen. Bijvoorbeeld om te weten hoeveel je op Mars zou wegen:
 ```csharp
-double gewichtOpAarde= 80.3;        //kg
-double zwaartekrachtAarde= 9.81;    //m/s² 
-double zwaartekrachtMars= 3.711;    //m/s²
+double gewichtOpAarde = 80.3;        //kg
+double zwaartekrachtAarde = 9.81;    //m/s² 
+double zwaartekrachtMars = 3.711;    //m/s²
 
-double  gewichtOpMars= (gewichtOpAarde/zwaartekrachtAarde) * zwaartekrachtMars; //kg
-Console.WriteLine("Je weeg op Mars" + gewichtOpMars + " kg");
+double  gewichtOpMars = (gewichtOpAarde/zwaartekrachtAarde) * zwaartekrachtMars; //kg
+Console.WriteLine("Je weeg op Mars " + gewichtOpMars + " kg");
 ```
 
 ## Modulo operator ``%``
