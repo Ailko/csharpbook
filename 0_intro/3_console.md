@@ -36,7 +36,7 @@ Bespreking van deze code:
 ``string result;``
 
 * Concreet zeggen we hiermee aan de compiler: maak in het geheugen een plekje vrij waar enkel data van het type string in mag bewaard worden;
-* Noem deze geheugenplek ``result``  zodat we deze later makkelijk kunnen in en uitlezen.
+* Noem deze geheugenplek ``result`` zodat we deze later makkelijk kunnen in- en uitlezen.
 
 ``result = Console.ReadLine();``
 
@@ -64,7 +64,7 @@ namespace Demo1
 
 Start nogmaals je programma. Je zal merken dat je programma nu een cursor toont en wacht op invoer. Je kan nu eender wat intypen en van zodra je op enter duwt gaat het programma verder (in dit geval stopt het programma hierna dus).
 
-## Input gebruiker verwerken en gebruiken
+## Input verwerken en gebruiken
 
 We kunnen nu invoer van de gebruiker, die we hebben bewaard in de variabele ``result``,  gebruiken en tonen op het scherm. 
 
@@ -78,7 +78,7 @@ In de tweede lijn hier gebruiken we de variabele ``result`` (waar de invoer van 
 
 Met andere woorden: de ``WriteLine`` methode zal op het scherm tonen wat de gebruiker even daarvoor heeft ingevoerd.
 
-Je volledige programma ziet er dus nu zo uit:
+Je volledige programma ziet er nu dus zo uit:
 
 ```csharp
 using System;
@@ -109,7 +109,7 @@ namespace Demo1
 
 Test het programma en voer je naam in wanneer de cursor knippert.
 
-Voorbeelduitvoer (lijn 3 is wat de gebruiker heeft ingetypt)
+Voorbeelduitvoer (lijn 3 is wat de gebruiker heeft ingetypt):
 
 ```csharp
 Hoi, ik ben het!
