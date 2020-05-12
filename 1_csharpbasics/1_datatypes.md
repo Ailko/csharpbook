@@ -41,7 +41,7 @@ Voor de gehele getallen:
 
 Enkele opmerkingen bij deze tabel:
 * De `s` vooraan `sbyte` types staat voor ``signed``: m.a.w. 1 bit wordt gebruikt om het + of - teken te bewaren. 
-* De `u` vooraan `ushort`, `uint` en `ulong` staat voor `unsigned`. Het omgekeerde van signed dus. Kwestie van het ingewikkeld te maken. Deze twee datatypes hebben dus geen teken en zijn **altijd positief**.
+* De `u` vooraan `ushort`, `uint` en `ulong` staat voor `unsigned`. Het omgekeerde van signed dus. Kwestie van het ingewikkeld te maken. Deze datatypes hebben dus geen teken en zijn **altijd positief**.
 * `char` bewaard karakters. We zullen verderop dit datatype uitspitten en ontdekken dat karakters (alle tekens op het toetsenbord, inclusief getallen, leesteken, etc.) als gehele, binaire getallen worden bewaard. Daarom staat `char` in deze lijst.
 * Het grootste getal bij `long` is 2 tot de 63ste (
 negen triljoen tweehonderddrieëntwintig biljard driehonderd tweeënzeventig biljoen zesendertig miljard achthonderdvierenvijftig miljoen zevenhonderdvijfenzeventigduizend achthonderd en zeven). Dit zijn maar 63 bits?! Inderaad, de laatste bit wordt gebruikt om het teken te bewaren.
