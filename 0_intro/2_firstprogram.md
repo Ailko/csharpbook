@@ -36,7 +36,7 @@ namespace Demo1
 }
 ```
 
-Compileer deze code en voer ze uit: **druk hiervoor op het groene driehoekje. Of via het menu Debug en dan Start Debugging.
+Compileer deze code en voer ze uit: druk hiervoor op het groene driehoekje. Of via het menu Debug en dan Start Debugging.
 
 **Let erop dat je iedere 'zin' eindigt met een puntkomma.**
 
