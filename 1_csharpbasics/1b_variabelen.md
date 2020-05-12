@@ -8,7 +8,7 @@ De data die we in een programma gebruiken bewaren we namelijk in een **variabele
 Om een variabele te maken moeten we deze **declareren**, door een type en naam te geven. Vanaf dan zal de computer een hoeveelheid geheugen voor je reserveren waar de inhoud van deze variabele in kan bewaard worden. 
 Hiervoor dien je minstens op te geven:
 
-1. Het datatype \(bv ``int``,  ``double``\).
+1. Het datatype \(bv. ``int``,  ``double``\).
 2. Een identifier zodat de variabele uniek kan geïdentificeerd worden ([volgens de naamgevingsregel van C#](0_csharpessentials.md)).
 3. \(optioneel\) Een beginwaarde die de variabele krijgt bij het aanmaken ervan.
 
@@ -36,7 +36,7 @@ int mijnLeeftijd = 37;
 
 Vanaf dit punt kunnen we dus ten allen tijde deze variabele gebruiken om een waarde aan toe te kennen, de bestaande waarde te overschrijven, of de waarde te gebruiken, zoals:
 
-* Waarde toekennen: `mijnGetal= 15;`. **Toekenning gebeurt steeds van rechts naar links: het deel rechts van het gelijkheidsteken wordt toegewezen aan het deel links er van.**
+* Waarde toekennen: `mijnGetal = 15;`. **Toekenning gebeurt steeds van rechts naar links: het deel rechts van het gelijkheidsteken wordt toegewezen aan het deel links er van.**
 * Waarde tonen op scherm: `Console.WriteLine(mijnGetal);`
 
 Met de **toekennings-operator \(=\)** kan je een waarde toekennen aan een variabele. Hierbij kan je zowel een literal toekennen oftewel het resultaat van een expressie.
@@ -59,7 +59,7 @@ int temperatuurGisteren = 20;
 int temperatuurVandaag = 25;
 ```
 
-Het is belangrijk dat het type van de literal overeenstemt met dat van de variabele waaraan je deze zal toewijzen. Een string-literal (zie verder) stel je voor door aanhalingstekens. Volgende code zal dan ook een compiler-fout generen, daar je een string-literal aan een int-variabele wil toewijzen, en vice versa.
+Het is belangrijk dat het type van de literal overeenstemt met dat van de variabele waaraan je deze zal toewijzen. Een string-literal (zie verder) stel je voor door aanhalingstekens. Volgende code zal dan ook een compiler-fout genereren, daar je een string-literal aan een int-variabele wil toewijzen, en vice versa.
 
 ```csharp
 string eenTekst;
@@ -119,11 +119,11 @@ In dit voorbeeld zal er dus voor gezorgd worden dat de oude waarde van temperatu
 Volgende code toont hoe je bijvoorbeeld eerst de vorige waarde kunt bewaren en dan overschrijven:
 
 ```csharp
-int temperatuurGisteren= 20;
+int temperatuurGisteren = 20;
 //Doe vanalles
 //...
 //1 dag later
-int temperatuurEerGisteren= temperatuurGisteren; //Vorige temperatuur in eergisteren bewaren
+int temperatuurEerGisteren = temperatuurGisteren; //Vorige temperatuur in eergisteren bewaren
 temperatuurGisteren = 25; //temperatuur nu overschrijven
 ```
 We hebben dus aan het einde van het programma zowel de temperatuur van eergisteren, ``20``, als die van vandaag, ``25``.
