@@ -1,4 +1,4 @@
-> Het is aanbevolen dat je per hoofdstuk een nieuwe folder aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de folder zet. Geef ieder project een duidelijke naam (bv EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
+> Het is aanbevolen dat je per hoofdstuk een nieuwe folder aanmaakt op je computer. Per oefening maak je dan best een nieuw project aan dat je in de folder zet. Geef ieder project een duidelijke naam (bv. EuroNaarDollar) zodat je later vlot je oefeningen kan terugvinden. Denk er aan dat je je projecten best enkel met cijfers en letters benoemd (dus beter EuroNaarDollar dan Euro-Dollar).
 
 # Simple maths
 Schrijf een programma dat de uitkomst van volgende resultaten op het scherm toont:
@@ -45,7 +45,7 @@ Druk op enter voor de volgende lijn.
 **Plaats 411 in een variabele aan de start van het programma en gebruik deze in je berekeningen verderop. Toon dat je code ook werkt door de inhoud van de variabele in een ander getal te veranderen zodat je van dat nieuwe getal nu de tafels van vermenigvuldiging krijgt.**
 
 
-Je kan wachten tot de gebruiker op enter duwt door gewoon een lege ``Console.ReadLine`` te doen, zoals volgende voorbeeld toont:
+Je kan wachten tot de gebruiker op enter duwt door gewoon een lege ``Console.ReadLine()`` te doen, zoals volgend voorbeeld toont:
 
 ```csharp
 Console.WriteLine("Eerste beeld");
@@ -61,7 +61,7 @@ Console.WriteLine("Tweede beeld");
 
 Maak twee variabelen ``double kills`` en ``double deaths`` aan. Wijs er jouw typische scores aan toe die je haalt in een spel naar keuze. Bereken en toon vervolgens je kill/death-ratio.
 
-(**opgelet: begrijp je waarom we best een van beide variabelen in ``double`` zetten?** Lees de warning bij Expressies zeker nog eens na... OF test eens wat er gebeurt indien je met ``int`` zou werken).
+**Opgelet: begrijp je waarom we best een van beide variabelen in ``double`` zetten?** Lees de warning bij Expressies zeker nog eens na... OF test eens wat er gebeurt indien je met ``int`` zou werken.
 
 # Gewicht in space
 
