@@ -50,7 +50,7 @@ Deze keywords zijn:
 # Variabelen, identifiers en naamgeving
 
 We hebben variabelen nodig om (tijdelijke) data in op te slaan. Wanneer we een statement schrijven dat bijvoorbeeld input van de gebruiker moet vragen, dan willen we ook die input bewaren zodat we verderop in het programma (het algoritme) iets met deze data kunnen doen.
-We doen hetzelfde in ons hoofd wanneer we bijvoorbeeld zegen "tel 3 en 4 op en vermenigvuldig dat resultaat met 5". Eerst zullen we het resultaat van 3+4 in een variabele moeten bewaren. Vervolgens zullen we de inhoud van die variabele vermenigvuldigen met 5 en dat nieuwe resultaat ook in een nieuwe variabele opslaan (om vervolgens bijvoorbeeld naar het scherm te sturen).
+We doen hetzelfde in ons hoofd wanneer we bijvoorbeeld zeggen "tel 3 en 4 op en vermenigvuldig dat resultaat met 5". Eerst zullen we het resultaat van 3+4 in een variabele moeten bewaren. Vervolgens zullen we de inhoud van die variabele vermenigvuldigen met 5 en dat nieuwe resultaat ook in een nieuwe variabele opslaan (om vervolgens bijvoorbeeld naar het scherm te sturen).
 
 Wanneer we een variabele aanmaken zal deze moeten voldoen aan enkele afspraken. Zo moeten we minstens 2 zaken meegeven:
 
@@ -64,7 +64,7 @@ De verschillende datatypes bespreken we in een volgend [hoofdstuk](1_datatypes.m
 De code die we gaan schrijven moet voldoen aan een hoop regels. Wanneer we in onze code zelf namen (**identifiers**) moeten geven aan **variabelen** (en later ook methoden, objecten, etc.) dan moeten we een aantal regels volgen:
 
 * Hoofdlettergevoelig: de identifiers ``tim`` en ``Tim`` zijn verschillend zoals reeds vermeld.
-* Geen keywords: identifiers mogen geen gereserveerde C# keywords zijn. De keywords van hierboven mogen dus niet. Varianten waarbij de hoofdletters anders zijn mogen wel, bijvoorbeeld: ``gOTO`` en ``stRINg`` mogen dus wel, maar niet ``goto`` of ``string`` daar beide een gereserveerd keyword zijn maar dankzij de hoofdlettergevoelig-regel is dit dus toegelaten. ``INT`` mag ook ook, maar niet ``int``.
+* Geen keywords: identifiers mogen geen gereserveerde C# keywords zijn. De keywords van hierboven mogen dus niet. Varianten waarbij de hoofdletters anders zijn mogen wel, bijvoorbeeld: ``gOTO`` en ``stRINg`` mogen dus wel, maar niet ``goto`` of ``string`` daar beide een gereserveerd keyword zijn maar dankzij de hoofdlettergevoelig-regel is dit dus toegelaten. ``INT`` mag ook, maar niet ``int``.
 * Eerste karakter-regel: het eerste karakter van de identifier mag enkel zijn:
   * kleine of grote letter
   * liggend streepje (``_``)
@@ -100,7 +100,7 @@ Er zijn geen vaste afspraken over hoe je je variabelen moet noemen toch hanteren
 
 # Commentaar
 
-Soms wil je misschien extra commentaar bij je code zetten. Als je dat gewoon zou doen (bv ``Dit deel zal alles verwijderen``) dan zal je compiler niet begrijpen wat die zin doet. Hij verwacht namelijk C#  en niet een Nederlandstalige zin. Om dit op te lossen kan je in je code op twee manieren aangeven dat een stuk tekst gewoon commentaar is en mag genegeerd worden door de compiler:
+Soms wil je misschien extra commentaar bij je code zetten. Als je dat gewoon zou doen (bv. ``Dit deel zal alles verwijderen``) dan zal je compiler niet begrijpen wat die zin doet. Hij verwacht namelijk C#  en niet een Nederlandstalige zin. Om dit op te lossen kan je in je code op twee manieren aangeven dat een stuk tekst gewoon commentaar is en mag genegeerd worden door de compiler:
 
 ## Enkele lijn commentaar
 
@@ -117,7 +117,7 @@ Console.WriteLine(result); //We tonen resultaat op scherm: 15
 
 ## Blok commentaar
 
-We kunnen een stuk tekst als commentaar aangeven door voor de tekst ``/*`` te plaatsen en ``*/`` achteraan. Een voorbeeld:
+We kunnen een stuk tekst als commentaar aangeven door voor de tekst ``/*`` en achter de tekst ``*/`` te plaatsen. Een voorbeeld:
 
 ```csharp
 /*
