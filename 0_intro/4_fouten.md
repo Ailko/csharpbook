@@ -5,6 +5,7 @@
 Je code kan niet gecompileerd en uitgevoerd worden zolang er fouten in je code staan (dit bespraken we reeds in [een eerder hoofdstuk](0_intrototcs.md)).
 
 Indien je op de groene start knop duwt en volgende waarschuwing krijgt **KLIK DAN NOOIT OP YES EN DUID NOOIT DE CHECKBOX AAN**:
+
 ![Zie je de fout?](../assets/0_intro/errorwarning.PNG)
 >De eerste die dit wél doet trakteert de hele klas als ik dit ontdek.
 
@@ -40,7 +41,7 @@ Je kan hier op klikken en heel vaak krijg je dan ineens een mogelijke oplossing.
 De meest voorkomende fouten in deze eerste weken zullen zijn:
 
 * **Puntkomma** vergeten.
-* **Schrijffouten** in je code RaedLine i.p.v. ReadLine.
-* Geen rekening gehouden met **hoofdletter gevoeligheid** Readline i.p.v. ReadLine (zie volgende hoofdstuk).
+* **Schrijffouten** in je code (bv. RaedLine i.p.v. ReadLine).
+* Geen rekening gehouden met **hoofdletter gevoeligheid** (bv. Readline i.p.v. ReadLine) (zie volgend hoofdstuk).
 * Per ongeluk **accolades verwijderd**.
 * Code geschreven op plekken waar dat niet mag (je mag enkel binnen de accolades van ``Main`` schrijven).
