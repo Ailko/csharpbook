@@ -124,7 +124,7 @@ interface IAdvisor
 }
 ```
 
-Vanaf nu kan eender *wie* die deze interface implementeert de President advies geven.Hoera! En daarnaast kan die klasse echter ook nog tal van andere zaken doen. Beeld je bijvoorbeeld een CEO van een bedrijf in die ook adviseur van de President wilt zijn. De bestaande klasse is bijvoorbeeld:
+Vanaf nu kan eender *wie* die deze interface implementeert de President advies geven. Hoera! En daarnaast kan die klasse echter ook nog tal van andere zaken doen. Beeld je bijvoorbeeld een CEO van een bedrijf in die ook adviseur van de President wilt zijn. De bestaande klasse is bijvoorbeeld:
 ```csharp
 class MicrosoftCEO: CEO   //CEO kan een parentklasse zijn die elders bijvoorbeeld algemene CEO-concepten beschrijft
 {
@@ -178,7 +178,7 @@ public class MisterPresident
 }
 ```
 
-De eerder beschreven ``MilitaryAdvisor``,``ScienceAdvisor`` en ``EconomyAdvisor`` dienen ook niet meer van de abstracte klasse ``Àdvisor``(deze zou je kunnen verwijderen) over te erven en kunnen gewoon de interface implementeren:
+De eerder beschreven ``MilitaryAdvisor``, ``ScienceAdvisor`` en ``EconomyAdvisor`` dienen ook niet meer van de abstracte klasse ``Advisor``(deze zou je kunnen verwijderen) over te erven en kunnen gewoon de interface implementeren:
 
 ```csharp
 class MilitaryMinistor:IAdvisor
