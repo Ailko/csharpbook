@@ -113,7 +113,7 @@ class MilitaryMinister
 
 De HealthOfficial-klasse heeft dan weer heel andere publieke methoden. En die Foreignminister ook weer totaal andere.
 
-Je merkt dat de President (of de programmeur van deze klasse) aardig wat specifieke kennis moet hebben van de vele verschillende departementen van het land. Uiteraard is dat onmogelijk (een fictief voorbeeld: stel je Trump voor...Denk je echt dat die zo veel weet?) . Bovenstaande code is dus zeer slecht. Telkens er zaken binnen een specifiek landsonderdeel wijzigen moet dit ook in de klasse President aangepast worden. 
+Je merkt dat de President (of de programmeur van deze klasse) aardig wat specifieke kennis moet hebben van de vele verschillende departementen van het land. Uiteraard is dat onmogelijk (een fictief voorbeeld: stel je Trump voor...Denk je echt dat die zo veel weet?). Bovenstaande code is dus zeer slecht. Telkens er zaken binnen een specifiek landsonderdeel wijzigen moet dit ook in de klasse President aangepast worden. 
 
 Dankzij polymorfisme kunnen we dit alles veel mooier oplossen:
 
@@ -198,5 +198,5 @@ Volgende voorbeeld is iets praktischer: [Arena with a mage in C# .NET (inheritan
 # Why should I care?
 ![](../assets/care.jpg)
 
-Polymorfisme is een heel krachtig concept. Door objecten te bewaren in hun basistype en , wanneer nodig, ze als 'zichzelf' te gebruiken wordt je code een pak eenvoudiger.
-Vaak weet je niet op voorhand wat voor elementen je in je lijst wilt plaatsen. Via polymorfisme lossen we dit op. Stel bijvoorbeeld dat je een lijst van Personen hebt (``List<Person>``) waar echter elementen van subklassen in terecht kunnen komen (``Bakker``, ``Student``, etc) , dan laat polymorfisme dit gewoon toe om ook deze elementen in die lijst te plaatsen.
+Polymorfisme is een heel krachtig concept. Door objecten te bewaren in hun basistype en, wanneer nodig, ze als 'zichzelf' te gebruiken wordt je code een pak eenvoudiger.
+Vaak weet je niet op voorhand wat voor elementen je in je lijst wilt plaatsen. Via polymorfisme lossen we dit op. Stel bijvoorbeeld dat je een lijst van Personen hebt (``List<Person>``) waar echter elementen van subklassen in terecht kunnen komen (``Bakker``, ``Student``, etc.), dan laat polymorfisme dit gewoon toe om ook deze elementen in die lijst te plaatsen.
