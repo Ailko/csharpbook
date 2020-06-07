@@ -47,7 +47,7 @@ aDier.KanHinnikken=false; //!!! zal niet werken!
 
 ## Multiple inheritance
 
-In C# is het niet mogelijk om een klasse van meer dan een parent-klasse te laten overerven (zogenaamde multiple inheritance), wat wel mogelijk is in sommige andere object georiënteerde talen.
+In C# is het niet mogelijk om een klasse van meer dan één parent-klasse te laten overerven (zogenaamde multiple inheritance), wat wel mogelijk is in sommige andere object georiënteerde talen.
 
 ## Transitive
 
@@ -109,4 +109,4 @@ class ChildClass:DoNotInheritMe
 }
 ```
 
-zal dit resulteren in een foutoodschap, namelijk ``cannot derive from sealed type 'DoNotInheritMe'``.
+zal dit resulteren in een foutboodschap, namelijk ``cannot derive from sealed type 'DoNotInheritMe'``.
