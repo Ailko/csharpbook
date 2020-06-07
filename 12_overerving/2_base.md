@@ -23,7 +23,7 @@ class Frituur:Restaurant
 ```
 
 Het poetsen van een Frituur is duurder (1000 basis + 500 voor ontsmetting) dan een gewoon restaurant. Als we echter later beslissen dat de basisprijs (in Restaurant) moet veranderen dan moet je ook in alle child-klassen doen.
-Base lost dit voor ons. De Frituur-klasse herschrijven we naar:
+Base lost dit op voor ons. De Frituur-klasse herschrijven we naar:
 
 ```csharp
 class Frituur:Restaurant
