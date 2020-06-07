@@ -1,5 +1,5 @@
 # Generics
-Talen als C# bieden goede mogelijkheden voor strong typing. Dit houdt in dat de compiler tijdens het compileren weet van welk type een variabele is en daardoor welke methoden en properties daarvoor beschikbaar zijn. Dit is gewenst, omdat op deze wijze de compiler goed kan controleren of er geen methoden worden aangeroepen die niet bestaan voor een bepaald type. Hoe meer compile-time gecontroleerd kan worden, hoe minder risico er is op fouten (bv exceptions) die pas at run-time naar voren komen. 
+Talen als C# bieden goede mogelijkheden voor strong typing. Dit houdt in dat de compiler tijdens het compileren weet van welk type een variabele is en daardoor welke methoden en properties daarvoor beschikbaar zijn. Dit is gewenst, omdat op deze wijze de compiler goed kan controleren of er geen methoden worden aangeroepen die niet bestaan voor een bepaald type. Hoe meer compile-time gecontroleerd kan worden, hoe minder risico er is op fouten (bv. exceptions) die pas at run-time naar voren komen. 
 
 Run-time fouten zijn lastiger te detecteren, omdat deze alleen optreden op het moment dat de "foute" regel code uitgevoerd wordt en dus alleen door middel van testen en gebruik van het systeem boven water kunnen komen wat dus vaak resulteert in bugs. Via generieke klassen kunnen we aan strong typing doen en zo al een groot deel van potentiele problemen at compile-time opvangen. [Bron](http://www.sdn.nl/SDN/Artikelen/tabid/58/view/View/ArticleID/1668/Generic-Programming-in-C-20.aspx)
 
@@ -41,11 +41,11 @@ In het volgende codevoorbeeld is te zien hoe een eigen generic struct in C# gede
 ## <T>
 De typeparameter T wordt pas voor de specifieke instantie van de generieke klass of type ingevuld bij het compileren. Hierdoor kan de compiler per instantie controleren of alle parameters en variabelen die in samenhang met het generieke type gebruikt worden wel kloppen.
 
-De afspraak is om .NET een T te gebruiken indien het type nog dient bepaald te worden (dit is niet verplicht).
+De afspraak is om in .NET een T te gebruiken indien het type nog dient bepaald te worden (dit is niet verplicht).
 [Meer info](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/introduction-to-generics)
 
 ## Voorbeeld generic type
-We wensen een ``struct`` te maken die de locatie in X,Y,Z richting kan bewaren. We willen echter zowel ``float``, ``double`` als ``int`` gebruiken om deze X,Y,Z coördinaten in bij te houden:
+We wensen een ``struct`` te maken die de locatie in X, Y, Z richting kan bewaren. We willen echter zowel ``float``, ``double`` als ``int`` gebruiken om deze X, Y, Z coördinaten in bij te houden:
 
 
 
