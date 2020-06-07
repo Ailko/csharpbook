@@ -47,7 +47,7 @@ public virtual string ToString()
  Merk twee zaken op:
  1. GetType wordt aangeroepen en die output krijg je terug.
  2. De methode is **virtual** gedefinieerd.
- **Alle 4 methoden in System.Object zijn ``virtual`` , en je kan deze dus ``override``'n!**
+ **Alle 4 methoden in System.Object zijn ``virtual`` , en je kan deze dus ``override``n!**
  
  ### ToString() overriden
  Het zou natuurlijk fijner zijn dat de ToString() van onze student nuttigere info teruggeeft, zoals bv de interne Naam (string autoprop) en Leeftijd (int autoprop). We kunnen dat eenvoudig krijgen door gewoon ToString to overriden:
@@ -59,7 +59,7 @@ public virtual string ToString()
    
    public override string ToString()
    {
-       return $"Student genaamd {Naam} (Leeftijd:{Leeftijd})";
+       return $"Student {Naam} (Leeftijd:{Leeftijd})";
    }
  }
  ```
@@ -111,7 +111,7 @@ De lijn ``Student temp = (Student)o;`` zal het ``object o`` casten naar een ``St
 
 [Dit concept heet polymorfisme en wordt later uitgelegd](../15_polymorfisme/11_polymo_intro.MD).
 
-## GetHashcode
+## GetHashCode
 Indien je Equals override dan moet je eigenlijk ook GetHashCode overriden, daar er wordt verondersteld dat twee gelijke objecten ook dezelfde unieke hashcode teruggeven. Wil je dit dus implementeren dan zal je dus een (bestaand) algoritme moeten schrijven dat een uniek nummer genereert voor ieder niet-gelijke object. 
 
 Bekijk volgende [StackOverflow post](https://stackoverflow.com/questions/9827911/how-to-implement-override-of-gethashcode-with-logic-of-overriden-equals) indien je dit wenst toe te passen.
