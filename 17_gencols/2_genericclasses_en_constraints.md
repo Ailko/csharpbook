@@ -109,7 +109,7 @@ Console.WriteLine(w.IsGestegen());
 ```
 
 ## Mogelijke constraints
-Verschillende zaken kunnen als constraint optreden. Naast de verplichting dat een bepaalde interface moet worden geïmplementeerd kunnen ook volgende constraints gelden([meer info](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)):
+Verschillende zaken kunnen als constraint optreden. Naast de verplichting dat een bepaalde interface moet worden geïmplementeerd kunnen ook volgende constraints gelden ([meer info](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/generics/constraints-on-type-parameters)):
 * Enkel value types
 * Enkel klassen
 * Moet default constructor hebben
