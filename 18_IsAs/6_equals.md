@@ -1,6 +1,6 @@
 # Objecten testen op gelijkheid: the missing manual
 
-In dit hoofdstuk gaan we dieper in hoe we objecten kunnen vergelijken op gelijkheid met behulp van de ``Equals`` methode die in ``System.Object`` gedefinieerd wordt. We hebben dit reeds behandeld in het hoofdstuk over [System.Object](../13_advancedovererving/4_System_Object.md). We hebben nu echter voldoende bagage dankzij de voorgaande hoofdstukken om een complete oplossing te vinden.
+In dit hoofdstuk gaan we dieper in op hoe we objecten kunnen vergelijken op gelijkheid met behulp van de ``Equals`` methode die in ``System.Object`` gedefinieerd wordt. We hebben dit reeds behandeld in het hoofdstuk over [System.Object](../13_advancedovererving/4_System_Object.md). We hebben nu echter voldoende bagage dankzij de voorgaande hoofdstukken om een complete oplossing te vinden.
 
 We zullen stap voor stap opbouwen en motiveren waarom dit de enige correcte manier is. 
 
@@ -11,7 +11,7 @@ C# programma’s gebruiken twee soorten geheugens zoals we reeds [in dit hoofdst
 * De stack
 * De heap
 
-De volledige werking van deze geheugens gaan we niet terug herhalen. Voor ons belangrijk is te weten dat variabelen van built-in .NET types (int , char, etc.) in de stack worden bewaard.
+De volledige werking van deze geheugens gaan we niet terug herhalen. Voor ons belangrijk, is te weten dat variabelen van built-in .NET types (int, char, etc.) in de stack worden bewaard.
 Objecten daarentegen worden in de heap bewaard. Indien je een object aanmaakt met de new operator en deze bewaard in een lokale variabele zoals hier:
 
 ```csharp
@@ -62,7 +62,7 @@ if(punt1==punt2)
 }
 ```
 
-Echter, objecten worden we weten dat objecten "by reference" in het geheugen worden bewaard. Wat dit wil zeggen is dat de variabelen ``punt1`` en ``punt2`` in het geheugen niet het volledig object bevatten. Ze bevatten enkel een geheugenadres (pointer, referentie) naar een andere plaats (in de heap) waar het volledige object zich bevindt.
+Echter, weten we dat objecten "by reference" in het geheugen worden bewaard. Wat dit wil zeggen is dat de variabelen ``punt1`` en ``punt2`` in het geheugen niet het volledig object bevatten. Ze bevatten enkel een geheugenadres (pointer, referentie) naar een andere plaats (in de heap) waar het volledige object zich bevindt.
 
 Wanneer we dus de expressie ``punt1==punt2`` schrijven dan zal de inhoud van die 2 variabelen worden vergeleken, zijnde de 2 adressen. Daar beide variabelen naar een ander adres wijzen zal deze test dus fout teruggeven.
 Als we 1 extra lijn voor de if toevoegen:
@@ -154,7 +154,7 @@ Bekijken we de signature van de Equals methode in System.Object dan zien we:
 public virtual bool Equals(Object obj)
 ```
  
-Met andere woorden, deze methode is ``virtual`` gemaakt zodat andere klasse deze methode kunnen override`'n. 
+Met andere woorden, deze methode is ``virtual`` gemaakt zodat andere klasse deze methode kunnen overriden. 
 Laten we dit eerst eens **niet** doen. Daar Point van ``System.Object`` overerft kunnen we schrijven:
 
 ```csharp
@@ -206,7 +206,7 @@ Daar we steevast ``true`` returnen hierboven zal onderstaande code altijd in de 
 if(punt1.Equals(punt2))
 ```
 
-Merk op dat dit dezelfde code is als voor we de ``Equals`` methode override’n. Echter, aangezien we de Equals methode *wel* override'n zullen we dus de implementatie uitvoeren die in de Point klasse staat, en niet die van ``System.Object``. 
+Merk op dat dit dezelfde code is als voor we de ``Equals`` methode override’n. Echter, aangezien we de Equals methode *wel* overriden zullen we dus de implementatie uitvoeren die in de Point klasse staat, en niet die van ``System.Object``. 
 
 # Polymorfisme duikt op
 Maar nu komt het nieuwe element om de hoek kijken: *hoe kunnen we nu binnen onze nieuwe Equals methode de punten vergelijken?*
