@@ -1,10 +1,10 @@
 # Polymorfisme, interfaces en is/as
 
-De eigenschappen van polymorfisme en interfaces combineren kan zeer krachtige tot zeer krachtige code resulteren wanneer we de ``is`` en ``as`` keywords gebruiken.
+De eigenschappen van polymorfisme en interfaces combineren kan in zeer krachtige code resulteren wanneer we de ``is`` en ``as`` keywords gebruiken.
 We tonen dit in een voorbeeld.
 
 ## Vloekende mensen: Opstart
-De idee is de volgende: mensen kunnen spreken. Leraren, Studenten, Politieker, en ja zelfs Advocaten zijn mensen. Echter, enkel Politiekers en Advocaten hebben ook de interface IVloeker die hen toelaat eens goed te vloeken.  Brave leerkrachten en studenten doen dat niet. We willen een programma dat lijsten van mensen bevat waarbij we de vloekers kunnen doen vloeken zonder complexe code te moeten schrijven.
+Het idee is het volgende: mensen kunnen spreken. Leraren, Studenten, Politieker, en ja zelfs Advocaten zijn mensen. Echter, enkel Politiekers en Advocaten hebben ook de interface IVloeker die hen toelaat eens goed te vloeken.  Brave leerkrachten en studenten doen dat niet. We willen een programma dat lijsten van mensen bevat waarbij we de vloekers kunnen doen vloeken zonder complexe code te moeten schrijven.
 
 We hebben volgende klasse-structuur:
 ![](../assets/12_isas/polyinterface.png)
