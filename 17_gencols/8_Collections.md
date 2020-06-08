@@ -7,7 +7,7 @@ Aantonen met klassen
 We hebben al eerder gezien hoe we arrays kunnen gebruiken om gegevens van hetzelfde type in één datastructuur voor te stellen. Hoewel arrays handig zijn, hebben ze ook een aantal nadelen:
 
 * Je weet niet altijd van tevoren hoe groot de array zal worden, nochtans moeten we op voorhand ruimte reserveren door op te geven hoe groot de array moet zijn. Hierdoor kan het voorkomen dat we veel computergeheugen reserveren voor een array die mogelijk nooit volledig gevuld zal zijn.
-* Omgekeerd kan het ook zijn dat we onze array te klein definiëren en we dus niet alle data kwijtraken in de array. We kunnen dit, omslachtig, oplossen door een nieuwe, grotere array te definiëren en daar de oude naar te kopiëren, inclusief te nieuwe data.
+* Omgekeerd kan het ook zijn dat we onze array te klein definiëren en we dus niet alle data kwijtraken in de array. We kunnen dit, omslachtig, oplossen door een nieuwe, grotere array te definiëren en daar de oude naar te kopiëren, inclusief de nieuwe data.
 * Wanneer de array value-types bevat (int, double, struct, etc.) en deze array kopiëren naar een nieuwe array waar we vervolgens een waarde aanpassen, dan zal enkel de waarde in de gekopieerde array veranderen, niet in de originele. Indien we echter een array van objecten (referentietypes) maken en in een kopie een referentie aanpassen, dan zal deze ook aangepast worden in de originele array.
 
 ## Collecties: geavanceerde arrays
